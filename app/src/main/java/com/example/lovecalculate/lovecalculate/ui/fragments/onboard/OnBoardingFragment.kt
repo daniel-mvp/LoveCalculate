@@ -11,7 +11,7 @@ import com.example.lovecalculate.databinding.FragmentOnBoardingBinding
 import com.example.lovecalculate.lovecalculate.data.models.OnBoardingModel
 import com.example.lovecalculate.lovecalculate.helper.SharedPreferences
 import com.example.lovecalculate.lovecalculate.ui.adapters.OnBoardingAdapter
-import com.example.lovecalculate.ui.inter.TransitionLoveCalculate
+import com.example.lovecalculate.lovecalculate.ui.inter.TransitionLoveCalculate
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
@@ -38,20 +38,20 @@ class OnBoardingFragment : Fragment(), TransitionLoveCalculate {
 
         list.add(
             OnBoardingModel(
-                R.drawable.iv_boarding_1,
+                "lottieAnimation/on_boarding_1.json",
                 "Have a good time",
                 "You should take the time to help those\n who need you", "Father"
             )
         )
         list.add(
             OnBoardingModel(
-                R.drawable.iv_boarding_2, "Cherishing love",
+                "lottieAnimation/on_boarding_2.json", "Cherishing love",
                 " It is now no longer possible for\n you to cherish love", "Father"
             )
         )
         list.add(
             OnBoardingModel(
-                R.drawable.iv_boarding_3,
+                "lottieAnimation/on_boarding_3.json",
                 "Have a breakup?",
                 "We have made the correction for you\n don't worry\n Maybe someone is waiting for you!",
                 "GO!"
